@@ -38,7 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'crispy_forms',
-    'django_filters',
+    # 'django_filters',
     'pure_pagination',
     'app'
 ]
@@ -77,24 +77,24 @@ WSGI_APPLICATION = 'CV_log.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/2.1/ref/settings/#databases
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.sqlite3',
-#         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-#     }
-# }
 DATABASES = {
-'default': {
-'ENGINE': 'djongo',
-'NAME': 'dev-example',
-'HOST': 'localhost'
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+    }
 }
-}
-TEST_MONGO_DATABASE = {
-'db': 'test-example',
-'host': ['localhost'],
-'port': 27017,
-}
+# DATABASES = {
+# 'default': {
+# 'ENGINE': 'djongo',
+# 'NAME': 'dev-example',
+# 'HOST': 'localhost'
+# }
+# }
+# TEST_MONGO_DATABASE = {
+# 'db': 'test-example',
+# 'host': ['localhost'],
+# 'port': 27017,
+# }
 
 
 # Password validation
