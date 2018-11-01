@@ -3,3 +3,5 @@ CV_log/app/__pycache__/admin.cpython-37.pyc
 mongodb/
 CV_log/app/__pycache__/
 CV_log/app/migrations/__pycache__/
+CV_log/.idea/
+CV_log/CV_log/__pycache__/
