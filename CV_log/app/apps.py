@@ -1,5 +1,5 @@
 from django.apps import AppConfig
 
-
-class AppConfig(AppConfig):
+class SampleAppConfig(AppConfig):
     name = 'app'
+    verbose_name = 'アプリ'

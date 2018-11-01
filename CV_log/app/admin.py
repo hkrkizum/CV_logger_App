@@ -1,4 +1,6 @@
 from django.contrib import admin
-# from .models import Example
-#
-# admin.site.register(Example)
+from .models import Item
+
+@admin.register(Item)
+class ItemAdmin(admin.ModelAdmin):
+    pass
